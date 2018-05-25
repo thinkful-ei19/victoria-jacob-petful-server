@@ -24,6 +24,16 @@ cats.enqueue({
 });
 
 cats.enqueue({
+  imageURL:'https://www.pets4homes.co.uk/images/breeds/23/large/3514efe61d990b82bbc37bed00eea52a.jpg', 
+  imageDescription: 'sphynx cat shamelessly roaming.',
+  name: 'Rattata',
+  sex: 'Female',
+  age: 2,
+  breed: 'Sphynx',
+  story: 'Owner dissowned her due to ugliness'
+});
+
+cats.enqueue({
   imageURL:'https://www.thehappycatsite.com/wp-content/uploads/2016/12/calico-cat-2.jpg', 
   imageDescription: 'Calico cat looking for her next owner',
   name: 'Mittens',
@@ -41,6 +51,16 @@ dogs.enqueue({
   age: 3,
   breed: 'Golden Retriever',
   story: 'Owner Passed away'
+});
+
+dogs.enqueue({
+  imageURL: 'https://moderndogmagazine.com/sites/default/files/images/uploads/Pug.jpg',
+  imageDescription: 'A pug wanting to go to a good home',
+  name: 'Ruby',
+  sex: 'Female',
+  age: 1,
+  breed: 'Pug',
+  story: 'Taken in after being found hiding in a dumpster'
 });
 
 dogs.enqueue({
