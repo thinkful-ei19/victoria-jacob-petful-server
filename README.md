@@ -6,7 +6,7 @@ Created using node, express, and a queue data structure
 
 Implemented using a queue, one can grab dogs or cats with a get request:
 
-GET http://localhost:8080/api/dog - will return json in format:
+GET http://localhost:8080/api/dog - will return dog, json in format:
 
     {
         "imageURL": "https://canna-pet.com/wp-content/uploads/2017/10/german-shepherd-dog-1071592_1920-1024x683.jpg",
@@ -18,7 +18,7 @@ GET http://localhost:8080/api/dog - will return json in format:
         "story": "Found wandering around with no owner"
     }
 
-GET http://localhost:8080/api/cat - will return json in same format
+GET http://localhost:8080/api/cat - will return cat, json in same format
 
 DELETE http://localhost:8080/api/dog - will dequeue (remove first) dog and return it as json
 
